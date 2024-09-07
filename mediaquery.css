@@ -39,4 +39,9 @@
     .resume-layout h4{
         font-size: 4vw;  
     }
+    .resume-layout .skills #toggle-button{
+        font-size: 4vw;
+        padding: 1%;
+        border-radius: 6px;
+    }
 }
