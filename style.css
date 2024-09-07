@@ -1,0 +1,178 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* ----------------------------------------------------  resume layout ------------------------------------------------*/
+.resume-layout {
+    width: 70%;
+    border: solid 0.5px rgba(145, 143, 143, 0.801);
+    margin-top: 5%;
+    background-color:  #FFFAFB ;
+    margin-bottom: 3%;
+}
+/* --------------------------------------------------------  header ----------------------------------------------------*/
+
+.resume-layout header {
+    display: flex;
+    padding: 1%;
+    /* border: solid; */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2B2C28;
+}
+
+.resume-layout header .profile-pic{
+    width: auto;
+    /* border: solid; */
+    height: 20vw;
+    /* border-radius: 50%; */
+}
+.resume-layout header .profile-pic img {
+    border: solid 0.5px;
+    margin-left: 15%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* border-radius: 50%; */
+
+}
+
+.resume-layout header .name{
+    margin-right: 10%;
+    text-transform: capitalize;
+    text-align: center;
+    width: 50%;
+    /* border: solid; */
+}
+.resume-layout header .name h1{
+    font-size: 3vw;
+    width: 90%;
+    margin: 2%;
+    padding: 1%;
+    outline: none;
+    text-transform: capitalize;
+    border: none;
+    text-align: center;
+    font-family: "Matemasie", system-ui;
+    color: #339989;
+}
+
+.resume-layout header .name h2 {
+  font-size: 2.5vw;
+  width: 90%;
+  margin: 2%;
+  padding: 1%;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: "New Amsterdam", sans-serif;
+  letter-spacing: 0.2em;
+  color: #FFFAFB;
+}
+/* --------------------------------------------------------  header ----------------------------------------------------*/
+
+/* ------------------------------------------------------  containers --------------------------------------------------*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding:2%;
+    border-top: solid 0.8px ;
+}
+.heading{
+    margin-bottom: 2%;
+    text-transform: capitalize;
+    width: 30%;
+    /* border: solid; */
+    margin-top: 2%;
+    color: #339989 ;
+    font-family: "Great Vibes", cursive;
+    font-size: 2vw;
+}
+.info{
+    width: 60%;
+    /* border: solid; */
+    padding: 1%;
+    color: #131515;
+    font-family: "Raleway", sans-serif;
+}
+.skills .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.skills .left, .skills .right{
+    width: 40%;
+    /* border: solid; */
+}
+.skills .info ul li{
+    list-style-type: none;
+    margin-bottom: 1.5%;
+    padding: 1%;
+    font-size: 1.4vw;
+    text-align: left;
+}
+.skills .info ul .hidden{
+    display: none;
+}
+.personal-info .info ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 2%;
+}
+.personal-info .info ul li{
+    list-style-type: none;
+    margin: 0%;
+    padding: 1%;
+    font-size: 2vw;
+    text-align: left;
+}
+.personal-info .info ul li a{
+    color: #339989;
+    text-decoration: none;
+}
+.personal-info .info ul li a:hover{
+    color: #2B2C28;
+}
+p{
+    text-transform: capitalize;
+    font-size: 1.4vw;
+}
+.info h3{
+    font-size: 1.8vw;
+    text-transform: capitalize;
+    margin-bottom: 1%;
+    font-family: "Playfair Display", serif;
+}
+.info h4{
+    font-size: 1.4vw;
+    margin-bottom: 1%;
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+}
+.info p{
+    font-size: 1.5vw;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+#toggle-button{
+    font-size: 1.2vw;
+    padding: 1%;
+    border-radius: 12px;
+    background-color: #339989;
+    border: none;
+    color: #FFFAFB;
+}
+/* ------------------------------------------------------  containers --------------------------------------------------*/
+
+/* ----------------------------------------------------  resume layout ------------------------------------------------*/
